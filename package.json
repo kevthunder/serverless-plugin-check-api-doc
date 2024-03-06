@@ -1,0 +1,27 @@
+{
+  "name": "serverless-plugin-check-api-doc",
+  "version": "0.1.0",
+  "description": "Validate that every http event is properly documented",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevthunder/serverless-plugin-check-api-doc.git"
+  },
+  "keywords": [
+    "serverless",
+    "openapi",
+    "swagger"
+  ],
+  "author": "Kevin Giguere Lacasse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevthunder/serverless-plugin-check-api-doc/issues"
+  },
+  "homepage": "https://github.com/kevthunder/serverless-plugin-check-api-doc#readme",
+  "dependencies": {
+    "@apidevtools/swagger-parser": "^10.1.0"
+  }
+}
